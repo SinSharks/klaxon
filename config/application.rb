@@ -16,7 +16,7 @@ require "sprockets/railtie"
 Bundler.require(*Rails.groups)
 
 if ENV['TIME_ZONE'].blank?
-  ENV['TIME_ZONE'] = "Eastern Time (US & Canada)"
+  ENV['TIME_ZONE'] = "Pacific Time (US & Canada)"
 end
 
 module Klaxon
